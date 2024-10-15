@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Translator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <textarea name="" id="fromText" placeholder="Enter Text"></textarea>
+            <textarea name="" id="toText" placeholder="translate"></textarea>
+        </div>
+        <div class="selectArea">
+            <div class="select1">
+                <img src="./components/speaker.svg" alt="speaker image" class="speaker" id="from">
+                <img src="./components/copy.svg" alt="copy image"  class="copy" id="from">
+                <select name="" id="first -select">
+                    <!-- options are in script.js -->
+                </select>
+            </div>
+                <div class="select2">
+                    <img src="./components/speaker.svg" alt="speaker image" class="speaker" id="to">
+                    <img src="./components/copy.svg" alt="copy image" class="copy" id="to">
+                    <select name="" id="second -select">
+                        <!-- options are in script.js -->
+                    </select>
+            </div>
+        
+    </div>
+    <button id="translate">Translate</button>
+    </div>
+   
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
